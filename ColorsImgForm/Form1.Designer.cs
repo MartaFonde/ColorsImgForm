@@ -54,7 +54,7 @@ namespace ColorsImgForm
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 11;
-            this.button1.Text = "Exit";
+            this.button1.Text = "&Exit";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             this.button1.MouseLeave += new System.EventHandler(this.mouseLeave);
@@ -104,7 +104,7 @@ namespace ColorsImgForm
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(16, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "R";
+            this.label2.Text = "&R";
             // 
             // label3
             // 
@@ -114,7 +114,7 @@ namespace ColorsImgForm
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(16, 13);
             this.label3.TabIndex = 3;
-            this.label3.Text = "G";
+            this.label3.Text = "&G";
             // 
             // label4
             // 
@@ -124,16 +124,17 @@ namespace ColorsImgForm
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(15, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "B";
+            this.label4.Text = "&B";
             // 
             // button2
             // 
+            this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.button2.Location = new System.Drawing.Point(377, 95);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 7;
-            this.button2.Text = "Color";
+            this.button2.Text = "&Color";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             this.button2.MouseLeave += new System.EventHandler(this.mouseLeave);
@@ -156,7 +157,7 @@ namespace ColorsImgForm
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(60, 13);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Path image";
+            this.label6.Text = "&Path image";
             // 
             // textBox4
             // 
@@ -173,7 +174,7 @@ namespace ColorsImgForm
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 10;
-            this.button3.Text = "OK";
+            this.button3.Text = "&OK";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             this.button3.MouseLeave += new System.EventHandler(this.mouseLeave);
@@ -228,7 +229,6 @@ namespace ColorsImgForm
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

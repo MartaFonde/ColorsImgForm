@@ -48,15 +48,7 @@ namespace ColorsImgForm
             {
                 e.Cancel = true;
             }
-        }
-
-        private void Form1_KeyDown(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode == Keys.Escape)
-            {
-                Close();
-            }
-        }
+        }       
 
         private void button1_Click(object sender, EventArgs e)
         {
